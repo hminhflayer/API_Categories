@@ -1,0 +1,29 @@
+{
+  "name": "clone-vnexpres",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "alpinejs": "^3.10.3",
+    "bootstrap": "^5.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "express-handlebars": "^6.0.6",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.5.2"
+  },
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
